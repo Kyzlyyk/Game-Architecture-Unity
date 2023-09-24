@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GunlundaiVigilantes/Resources/UI/Styles/start-button.uss?fileID=7433441132597879392&amp;guid=5dfdfcd7bd5276d489f0bf4bff350a68&amp;type=3#start-button" />
+    <ui:VisualElement name="Container" style="height: 100%; width: 100%; align-items: center; justify-content: center; flex-grow: 1; flex-direction: row-reverse; background-image: resource(&apos;Images/UI/Menu/Background/blurback_1&apos;);">
+        <ui:Button text="Start" display-tooltip-when-elided="true" class="start-button" />
+    </ui:VisualElement>
+</ui:UXML>

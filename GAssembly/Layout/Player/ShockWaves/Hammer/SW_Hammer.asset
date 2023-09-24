@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc08829e298c62042953195e517be95d, type: 3}
+  m_Name: SW_Hammer
+  m_EditorClassIdentifier: 
+  _card: {fileID: 11400000, guid: 4d57a1bea0eb33e4b82c4cef451301c7, type: 2}
+  _removeAfterBlow: 1
+  _move: 1
+  _shakeCamera: 1
+  _toDrill: 0
+  _buildingDuration: 0.8
+  _removingDuration: 0.8
+  _delayBetweenEndBuildingAndRemove: 0.3
+  _moveSpeed: 4
+  _strength: 0.8
+  _vibrato: 12
+  _randomness: 50
+  _fadeOut: 1
+  _chunkPrefab: {fileID: 5339379968423849198, guid: 64e602eee4f8636439bd14e4eff23df5, type: 3}
+  _ignoreBorders: 0
+  _handleSize: {x: 4, y: 1}
+  _headSize: {x: 2, y: 3}

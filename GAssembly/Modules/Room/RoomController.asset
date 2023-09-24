@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 555ac4205a7e488bb381e03a5f7bfd3d, type: 3}
+  m_Name: RoomController
+  m_EditorClassIdentifier: 
+  _scoreToWin: 100
+  _scoreForCapturePoint: 15
+  _winnerPanelPrefab: {fileID: 7560304561593475582, guid: f51915d32f17a6b4181fb75cecf2a015, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7e177ef65514449644c83f9df4aa8, type: 3}
+  m_Name: PlayerCtor_Capture
+  m_EditorClassIdentifier: 
+  DetailsMarshal: {fileID: 11400000, guid: e98429531ea8dd944a0945f5f27e3abd, type: 2}
+  ShockWavesMarshal: {fileID: 11400000, guid: db6c338e9a092d24c9e2f38f3127b135, type: 2}
+  _maxShockWavesForPlayer: 3
+  _maxDetailsForPlayer: 3
+  _mainPlayerPrefab: {fileID: 135719014984734469, guid: f28330ad6b47d1a4f9a62f0d27b7ddb3, type: 3}
+  _controlledPlayerPrefabs:
+  - {fileID: 135719014984734469, guid: d4c6650d430faba4f925cb266cb1cbd9, type: 3}
+  _uncontrolledPlayerPrefabs:
+  - {fileID: 135719014984734469, guid: 96856ce20c77b1d4a9441777a19e09e4, type: 3}
